@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300|Odibee+Sans&display=swap');
+
+.timeMeasureWrapper {
+    width: 50vw;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+#elapsedTime {
+    font-size: 3.5rem;
+    font-family: 'Odibee Sans', cursive;
+    text-align: center;
+    margin: 1rem;
+}
+#timeButton {
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    background-color: green;
+    border: none;
+    font-family: 'Montserrat', cursive;
+    font-size: 2em;
+    box-shadow: darkgray 0px 10px ;
+    color: white;
+}
+#timeButton:hover {
+    background-color: #347436
+}
+#timeButton:active {
+    box-shadow: gray 0px 6px ;
+    transform: translateY(4px);
+}
+#previousTimesList {
+    width: 50vh;
+    text-align: left;
+    list-style-type: none;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+.listItem {
+    font-family: 'Odibee Sans', cursive;
+    font-size: 1.5em;
+    padding: 5px;
+}
