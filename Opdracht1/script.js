@@ -12,12 +12,12 @@ function startCount() {
 }
 function endCount() {
     endTime = new Date();
-    var timeDiff = endTime - startTime; //in ms
+    let timeDiff = endTime - startTime; //in ms
     // strip the ms
     timeDiff /= 1000;
 
     // get seconds 
-    var seconds = Math.round(timeDiff);
+    let seconds = Math.round(timeDiff);
     elapsedTimeH1.innerHTML = seconds + ' seconds.';
 
     changeButtonOnStop();
